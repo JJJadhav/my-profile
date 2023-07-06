@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head id="bg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #bg {
+            background-color: rgb(189, 207, 189);
+        }
+    </style>
 </head>
 
-<body>
+<body id="bg">
 
     <div>
-        <h2> My Profile </h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <br>
         <i class="fa fa-user" aria-hidden="true"> &nbsp; Jeevan Jadhav</i>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <i class="fa fa-mobile" aria-hidden="true"> &nbsp; Mobile : 897557 61
             09</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <i class="fa fa-envelope" aria-hidden="true">&nbsp;
-            jeevanj73@gmail.com</i>
+            jeevanj73@gmail.com</i>>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <i class="fa fa-download" aria-hidden="true">
+            <a href="experience.pdf" download> DOWNLOAD PDF</a>
+        </i>
+
     </div>
     <br>
     <nav>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="" target="myframe"><strong> HOME </strong>
+        <a href="Home.html" target="myProfile"><strong> HOME </strong>
         </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="teckStack.html" target="myProfile"><strong> TECHSTACK </strong>
         </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -34,8 +44,25 @@
     </nav>
     <br>
     <div>
-        <iframe name="myProfile" width="900px" height="500px" frameborder="0"></iframe>
+        <iframe id="bg" name="myProfile" width="900px" height="400px" frameborder="0"></iframe>
     </div>
+    <footer id="bg">
+        <label> Follow Me </label>&nbsp;&nbsp;
+        <a href="https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid.14650114788_asid.151761418307_crid.657403558718_kw.linkedin+login_d.c_tid.kwd-12704335873_n.g_mt.e_geo.9302709&mcid=6844056167778418689&cid=&gclid=EAIaIQobChMI7rj75sji_wIVQ019Ch06DAE1EAAYASAAEgJ_KfD_BwE&gclsrc=aw.ds&original_referer=https%3A%2F%2Fwww.google.com%2F"
+            target="_blank">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </a>&nbsp;&nbsp;
+        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"
+            target="_blank">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>&nbsp;&nbsp;
+        <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>&nbsp;&nbsp;
+        &nbsp;&nbsp;<a href="https://www.instagram.com/" target="_blank">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+    </footer>
 </body>
 
 </html>
